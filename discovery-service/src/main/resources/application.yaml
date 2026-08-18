@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: discovery-service
+
+
+
+server.port: 8761
+  
+  #Beacuse we don't want to make discovery service as one of the client for eureka server that's why false
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
