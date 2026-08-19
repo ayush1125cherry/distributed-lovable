@@ -9,7 +9,7 @@ on:
 
 env:
   SERVICE_NAME: account-service
-  IMAGE_NAME: anuj55149/lovable-account-service
+  IMAGE_NAME: ayushrawat3243/lovable-account-service
 
 permissions:
   id-token: write
